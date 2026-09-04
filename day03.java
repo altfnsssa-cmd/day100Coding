@@ -18,7 +18,7 @@ public static void main(String[] args) {
     System.out.println("Cacaa\b");
 
     // \r untuk kembali keawal baris 
-    System.out.println("Hai salamır kenal");
+    System.out.println("Hai salam\r kenal");
 
 
     }
