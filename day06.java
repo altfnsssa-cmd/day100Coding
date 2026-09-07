@@ -9,10 +9,10 @@ public class day6 {
         boolean aktif = true;
         boolean hujan = false;
 
-        System.out.println("huruf");
-        System.out.println("angka");
-        System.out.println("aktif");
-        System.out.println("hujan");
+        System.out.println("Huruf: "+ huruf);
+        System.out.println("Angka: "+ angka);
+        System.out.println("Aktif: "+ aktif);
+        System.out.println("Hujan: "+ hujan);
 
     }
 }
