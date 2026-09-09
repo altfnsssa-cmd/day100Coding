@@ -5,11 +5,10 @@ public class day8 {
 
         // Inisialisasi memberikan nilai awal pada variabel
         umur = 17;
+        System.out.println("Sebelum diubah: " + umur);
 
         // Update mengubah nilai variabel yang sudah ada
         umur = 18;
-
-        System.out.println("Sebelum diubah: " + umur);
         System.out.println("Sesudah diubah: " + umur);
 
     }
