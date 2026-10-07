@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class day36 {
+    public static void main(String[] args) {
+        Scanner caca = new Scanner(System.in);
+
+        System.out.print("Masukkan bilangan: ");
+        int bilangan = caca.nextInt();
+
+        if (bilangan % 2 == 0) {
+            System.out.println("Bilangan Genap");
+        } else {
+            System.out.println("Bilangan Ganjil");
+        }
+    }
+}
