@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Day55 {
@@ -17,6 +18,11 @@ public class Day55 {
 
             if (angka < 0) {
                 System.out.println("Angka negatif dilewati!");
+                continue;
+            }
+
+            if (angka == 99) {
+                System.out.println("Keluar dari program");
                 return;
             }
 
@@ -24,3 +30,4 @@ public class Day55 {
         }
     }
 }
+
